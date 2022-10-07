@@ -1,0 +1,12 @@
+{
+  "id": "builtin.language-basics-r",
+  "name": "Language Basics R",
+  "description": "Provides syntax highlighting and bracket matching in R files.",
+  "languages": [
+    {
+      "id": "r",
+      "extensions": [".r", ".rhistory", ".rprofile", ".rt"],
+      "tokenize": "src/tokenizeR.js"
+    }
+  ]
+}
