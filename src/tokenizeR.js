@@ -29,7 +29,7 @@ export const initialLineState = {
 export const hasArrayReturn = true
 
 const RE_BUILTIN_FUNCTION =
-  /^(?:abbreviate|abs|acos|acosh|addNA|addTaskCallback|agrep|agrepl|alist|all|all\.equal)\b/
+  /^(?:abbreviate|abline|abs|acf2AR|acos|acosh|addmargins|addNA|addTaskCallback|addNextMethod|addNextCallback|adist|adjustcolor|aggregate|agrep|agrepl|alarm|alist|all\.equal|all|allGenerics|approx|approxfun|apropos|aregexc|argsAnywhere|arrows|as\.data\.frame|as\.Date|as\.double|as\.factor|as\.name|as\.numeric|as\.ordered|as\.single|assocplot|attach|attr|attributes|ave|axis|barplot|body|box|boxplot|browser|call|classLabel|classMetaName|className|completeSubclasses|doPrimitiveMethod|emptyMethodsList)\b/
 const RE_ANYTHING = /^.+/s
 
 /**
