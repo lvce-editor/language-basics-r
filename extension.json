@@ -5,8 +5,14 @@
   "languages": [
     {
       "id": "r",
-      "extensions": [".r", ".rhistory", ".rprofile", ".rt"],
+      "extensions": [
+        ".r",
+        ".rhistory",
+        ".rprofile",
+        ".rt"
+      ],
       "tokenize": "src/tokenizeR.js"
     }
-  ]
+  ],
+  "repository": "https://github.com/lvce-editor/language-basics-r"
 }
